@@ -2,45 +2,110 @@ package com.pertemuan_3;
 
 public class pertemuan3 {
     
-    public static void main(String[] args){
-        //Code PROGRAM
-        byte iniByte = 12;
-        short iniShort_Konversi = iniByte;
+    public static void main(String[] args) {
 
+        // variable
+        System.out.println("Variable");
+        String name;
+        name = "Moh Firdaus Maulana Nur Illahi";
 
-        short iniShort = 32_767;
-        int iniInt = 2_147_483_647;
-        long iniLong = 923_337_203;
+        // kata kunci var
+        int age = 30;
+        String address = "Indonesia";
 
-        float iniFloat = 10.12F;
-        long iniLong2 = (long) iniFloat;
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(address);
 
-        double iniDouble = 12.2424;
+        // kata kunci final
+        System.out.println("\n");
+        System.out.println("Final");
+        final String name1 = "Moh Firdaus Maulana NI";
+        int age1 = 30;
+        String address1 = "Indonesia";
 
-        int decimalInt = 25;
-        int hexInt = 0xABCDEF;
-        int binInt = 0b1010101010101;
+        // name1 = "diubah"; karena final
+        System.out.println(name1);
+        System.out.println(age1);
+        System.out.println(address1);
 
+        // Tipe data bukan primitif
+        System.out.println("\n");
+        System.out.println("Array");
+        String[] arrayString;
+        arrayString = new String[3];
 
-        char e = 'E';
-        char k = 'K';
-        char o = 'O';
+        // Tipe data array
+        arrayString[0] = "Moh";
+        arrayString[0] = "Firdaus";
+        arrayString[0] = "Maulana";
 
+        int[] arrayInt = new int[] {
+                        10, 90, 80, 67, 29
+        };
 
+        long[] arraylong = {
+                        10, 90, 80, 67, 29
+        };
 
-         System.out.println(e);
-          System.out.println(k);
-           System.out.println(o);
+        arraylong[0] = 100;
 
-        String firstname = "Moh Firdaus";
-        String lastname = "Maulana";
-        String fullname = "Moh Firdaus Maulana";
+        // Operasi di array
+        System.out.println(arraylong[0]);
+        System.out.println(arraylong[1]);
+        System.out.println(arraylong.length);
 
+        String[][] members = {
+                        { "Moh", "Firdaus", "Maulana" },
+                        { "Joko", "Purwanto" },
+                        { "Ehzand", "Ote" }
+        };
 
-        System.out.println(firstname);
-         System.out.println(lastname);
-        System.out.println(fullname);
-        
-        System.out.println("Tipe-tipe data diJAVA");
-    }
+        String[] member1 = members[0];
+        System.out.println(member1[0]);
+
+        System.out.println(members[1][0]);
+        System.out.println(members[2][0]);
+
+        // Operasi Matematika
+        System.out.println("\n");
+        System.out.println("Operasi Matematika");
+        int a = 100;
+        int b = 10;
+
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a * b);
+        System.out.println(a / b);
+        System.out.println(a % b);
+
+        // Augmented Assignments
+        System.out.println("\n");
+        System.out.println("Augmented Assignment");
+        int c = 100;
+
+        c += 10;
+        System.out.println(c);
+
+        c -= 10;
+        System.out.println(c);
+
+        c *= 10;
+        System.out.println(c);
+
+        // Unary Operator
+        System.out.println("\n");
+        System.out.println("Unary Operator");
+        int d = +100;
+        int e = -10;
+
+        d++;
+        System.out.println(d);
+
+        d--;
+        System.out.println(d);
+
+        System.out.println(!true);
+
+}
 }

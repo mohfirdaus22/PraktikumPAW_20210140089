@@ -56,8 +56,8 @@ public class pertemuan2 {
         // Tipe Data String
         System.out.println("\n");
         System.out.println("Tipe data String");
-        String firstname = "Farhan Taufiqul";
-        String lastname = "Ihsan";
+        String firstname = "Moh Firdaus";
+        String lastname = "Firdaus";
         String fullname = firstname + " " + lastname;
 
         System.out.println(firstname);
