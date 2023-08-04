@@ -1,11 +1,11 @@
 package com.pertemuan_3;
 
-public class ForEach {
+public class WithoutForEach {
     public static void main(String[] args) {
       
         String[] array= {
             "Moh", "Firdaus", "Maulana",
-            "Programmer", "Zaman", "Now"
+            "Programmer", "Biasa", "Aja"
         };
 
         for(int i = 0; i < array.length; i++){
