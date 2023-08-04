@@ -4,7 +4,7 @@ public class ForEach {
     public static void main(String[] args) {
       
         String[] array= {
-            "Eko", "Kurniawan", "Khannedy",
+            "Moh", "Firdaus", "Maulana",
             "Programmer", "Zaman", "Now"
         };
 
