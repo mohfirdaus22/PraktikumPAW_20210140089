@@ -5,6 +5,6 @@ public class MethodParameter {
         sayHello("Moh","Firdaus");
       }
       static void sayHello(String firstname, String Lastname){
-          System.out.println("Hello" + firstname + " " + Lastname);
+          System.out.println("Hello" +" "+ firstname + " " + Lastname);
       }  
 }
