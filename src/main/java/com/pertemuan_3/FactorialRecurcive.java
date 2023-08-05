@@ -5,7 +5,7 @@ public class FactorialRecurcive {
         if (value == 1) {
             return 1;
         } else {
-            return factorialRecurcive(value - 1);
+            return value * factorialRecurcive(value - 1);
         }
     }
 }
