@@ -1,11 +1,17 @@
 package com.pertemuan_3;
 
 public class FactorialRecurcive {
-    static int factorialRecurcive(int value) {
+    public static void main(String[] args) {
+        int result = factorialRecursive(7);
+        System.out.println("Factorial: " + result);
+    }
+
+    static int factorialRecursive(int value) {
         if (value == 1) {
             return 1;
         } else {
-            return value * factorialRecurcive(value - 1);
+            return value * factorialRecursive(value - 1);
         }
     }
+
 }
