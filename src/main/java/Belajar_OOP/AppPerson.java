@@ -2,14 +2,19 @@ package Belajar_OOP;
 
 public class AppPerson {
     public static void main(String[] args) {
-        var person1 = new person();
-        person person2 = new person();
+        var person = new person();//manggil class/file person.java
+        person.name = "Moh Firdaus";
+        person.address = "Yogyakarta";
+        // Person.Country = "Tidak Bisa Diubah";
+        // person person2 = new person();
 
-        person person3;
-        person3 = new person();
+        System.out.println(person.name);
+        System.out.println(person.address);
+        System.out.println(person.country);
+        
+      person.sayHello("Broww");
 
-        System.out.println(person1);
-        System.out.println(person2);
-        System.out.println(person3);
+       
+
     }
 }
