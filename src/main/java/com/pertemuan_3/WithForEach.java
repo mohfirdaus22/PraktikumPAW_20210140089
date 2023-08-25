@@ -3,12 +3,14 @@ package com.pertemuan_3;
 public class WithForEach {
     public static void main(String[] args) {
       
-        String[] array= {
+        // Array yang berisi beberapa elemen string
+        String[] array = {
             "Moh", "Firdaus", "Maulana",
             "Programmer", "Biasa", "Aja"
         };
 
-        for(var value : array){
+        // Perulangan for-each untuk mengiterasi setiap elemen dalam array
+        for (var value : array) {
             System.out.println(value);
         }
 
