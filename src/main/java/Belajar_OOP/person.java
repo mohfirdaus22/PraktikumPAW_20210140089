@@ -2,9 +2,9 @@ package Belajar_OOP;
 
 public class person { // ini class
     // atribut
-    String name;
-    String address;
-    final String country = "Indonesia";
+    String name; // field1 berupa nama
+    String address; //field 2 berupa alamat
+    final String country = "Indonesia"; //  field 3 berupa kata kunci final karena country tidak berubah
 
     // constructor
     person(String name, String address) {
